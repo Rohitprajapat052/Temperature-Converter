@@ -1,0 +1,61 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+
+}
+
+.container {
+  text-align: center;
+  display: flex;
+
+
+  justify-content: center;
+
+}
+
+h1 {
+  text-align: center;
+  color: rgb(30, 14, 94);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+label {
+  color: rgb(7, 24, 101);
+  padding: 0px 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.box {
+  margin: 10px;
+  font-weight: bold;
+
+}
+
+.cont {
+
+
+  padding: 4rem 0rem;
+  margin: 7rem 31rem;
+  box-shadow: 20px 30px slategray;
+  background-color: rgb(91, 115, 140);
+
+}
+
+.num {
+
+  background-color: rgb(186, 186, 214);
+}
+
+span {
+  display: inline-block;
+  padding: 2px 2px;
+  border: 2px solid rgb(7, 24, 101);
+  margin: 4px;
+  border-radius: 50%;
+}
+
+.dot {
+  margin: 40px 20px;
+}

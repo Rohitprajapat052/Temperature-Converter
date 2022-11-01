@@ -1,0 +1,46 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Temperature Converter</title>
+
+</head>
+
+<body>
+  <div class="dot">
+    <button id="btn" onclick="hover()"><b>Click Here</b></button>
+    
+    <span style=" color: white; border:1px solid white " id="red" onclick="chBg('#000000') ">B</span>
+    <span style="background-color:rgb(56, 219, 58)" id="blue" onclick="chBg('#7fffd4')">G</span>
+    <span style="background-color:rgb(134, 51, 197)" id=" voilet" onclick="chBg('#ce9aff')">V</span>
+
+    <span style="background-color:rgb(219, 206, 206)" id="white" onclick="chBg('#ffffff')">W</span>
+  </div>
+
+  <div class="cont">
+
+    <h1>Temperature Converter</h1>
+    <div class="container">
+      <div class="box">
+        <br>
+        <input type="number" value="0" id="cel" class="num"><br>
+        <label>Celcius</label>
+      </div>
+      <div class="box">
+        <br>
+        <input type="number" value="32" id="fah" class="num"><br>
+        <label>Farenheight</label>
+      </div>
+    </div>
+
+  </div>
+  
+
+</body>
+
+</html> 
